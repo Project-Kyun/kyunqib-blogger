@@ -12,8 +12,6 @@ myApp.controller('shift_tabs',function(){
     }
   }
 });
-//]]></script>
-<script type="text/javascript">//<![CDATA[
 //*This File From KyunQIB AnimeLoker Website*//
 $('#srv01').click(function(){
   if ($(this).find('i').attr('class') == 'fa fa-folder') {
