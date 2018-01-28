@@ -1,0 +1,254 @@
+//*This File From KyunQIB AnimeLoker Website*//
+.ulx {
+    margin-bottom: 2px;
+    font-size: 13px;
+    display: inline-block;
+}
+.post-body img {
+    height: auto;
+    opacity: 1;
+    transition: all .6s ease;
+    border-radius: 5px;
+}
+
+.wlx {
+    padding: 5px 10px;
+    font-size: 85%;
+    font-weight: 500;
+    font-family: arial;
+    margin: 10px 0px;
+    line-height: 25px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.slx {
+    color: #333;
+    font-family: arial;
+    font-size: 13px;
+    margin-bottom: 25px;
+    background-image: url(https://2.bp.blogspot.com/-SJV6FgdWgj4/WlgRjjdPdpI/AAAAAAAADKA/IojreuxsGWQgIYc6U08Ry-Wc057l1ExygCLcBGAs/s1600/Violet%2B2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.slxx {
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 7px 10px;
+}
+.slxx:nth-child(even) {
+    background: rgba(238, 238, 238, 0.3);
+}
+.slxx b {
+  width: 100px;
+  float: left
+}
+.slxx:last-child {
+  border: 0;
+}
+.slxx a {
+    color: #fff;
+    text-decoration: none;
+    background: #337ab7;
+    padding: 0px 3px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #2e6da4;
+}
+.slxx a:hover {
+  text-decoration: none;
+ background: #286090;
+ border: 1px solid #204d74;
+}
+
+.dlx {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+.dlx h2 {
+    background: #337ab7;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 10px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: arial;
+}
+.dlx h2:before {
+  font-family: "FontAwesome";
+  content: '\f019';
+  margin-right: 5px;
+}
+.dlxx {
+    border-bottom: 2px solid #3b93d6;
+    border-right: 2px solid #3b93d6;
+    border-left: 2px solid #3b93d6;
+}
+.dlxx b {
+    background: #286090;
+    border: 1px solid #204d74;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 10px;
+    display: inline-block;
+}
+.dlxx a {
+    color: #337ab7;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #d9edf7;
+    font-weight: 500;
+    border: 1px solid #bce8f1;
+}
+.dlxx a:hover {
+    background: #337ab7;
+    border: 1px solid #337ab7;
+    color: #fff;
+}
+.nonton {
+user-select:none;
+unselectable:on;
+margin-bottom: 50px;
+}
+.nonton h2 {
+ font-size: 19px;
+ background: #268FE6;
+ padding-left: 10px;
+ margin: 0;
+ display: block;
+ line-height: 36px;
+}
+.nonton h2:before {
+ display: none;
+}
+.nton {
+    display: none;
+}
+.ntn {
+    position: relative;
+    padding-bottom: 56%;
+    padding-top: 0px;
+    height: 0;
+    background-color: #000 !important;
+}
+.ntn iframe, .ntn object, .ntn embed {
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  border: none;
+}
+.ntnpnl {
+ z-index: 200;
+  width: 100%;
+}
+.ntnsrv {
+  display: block;
+  text-align: center;
+}
+.ntnsrv b {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50%;
+ float: left;
+  cursor: pointer;
+  line-height: 40px;
+}
+.ntnep {
+  color: #fff;
+  padding: 5px;
+  text-align: left;
+  display: none;
+ background: #ef4566;
+ width: 100%;
+}
+.ntnep b {
+    display: inline-block;
+    border-top: 2px dashed #fff;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 4px 0px;
+    padding: 5px 0px 0px 0px;
+    letter-spacing: 1px;
+}
+.ntnep a {
+  display: inline-block;
+  margin-top: 2px;
+  padding: 0px 8px;
+  line-height: normal;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+.ntnep a:hover {
+    cursor: pointer;
+    border: 2px solid #000;
+    color: #000;
+}
+#srv01, #ntnep01 {
+ background: #00d27f;
+}
+#srv02, #ntnep02 {
+ background: #ef4566;
+}
+@media screen and (max-width:640px) {
+.cc {
+    padding:0px;
+ position: relative;
+}
+.slx {
+ background-image: none;
+}
+.post-thumb img{width:100%;max-height:400px;height:400px;}
+.post-thumb {
+    width: 100%;
+    margin: 0;
+    min-width: auto;
+    min-height: auto;
+    max-height: 400px;
+    margin-bottom: 5px;
+    float: none;
+}
+.post-thumbnail {width:100%;height:auto;}
+.post-thumb {
+    padding: 0px;
+}
+}
+
+@media screen and (max-width:400px) {
+.dlxx {
+ text-align: center;
+}
+.dlxx b {
+    background: #286090;
+    border: 1px solid #204d74;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 10px;
+    display: block;
+    text-align: center;
+}
+.dlxx a {
+ margin: 5px 0px;
+}
+.post-thumb{width:100%;margin:0;min-width:auto;min-height:auto;max-height:230px;}
+.post-thumb img{width:100%;max-height:230px;height:230px;}
+.post-thumbnail {width:100%;height:auto;}
+@media screen and (max-width:640px){
+   .post{padding: 0px}}
