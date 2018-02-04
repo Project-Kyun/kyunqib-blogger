@@ -5,7 +5,7 @@ a:hover.ngunduh{color:#fff;background:#721799;border:1px solid #721799}
 .radio-img img{max-width:143px;min-height:143px;height:auto}
 /*single img*/
 .music-img{float:left;height:auto;overflow:hidden;height:175px;margin:0 15px 15px 0}
-.music-img img{max-width:175px;height:auto}
+.music-img img{max-width:auto;height:auto}
 /*Lyrics*/
 .multitab-section{width:100%;padding:10px;border:1px solid #ddd;background-color:#f2f2f2}
 .multitab-widget{list-style:none;padding:0;overflow:hidden;margin:0 0 10px}
@@ -19,4 +19,4 @@ a:hover.ngunduh{color:#fff;background:#721799;border:1px solid #721799}
 #lyrics span,#romanji span,#english span,#indonesia span{float:right;font-size:14px;color:#666}
 @media screen and (max-width:440px){
 .music-img{float:left;overflow:hidden;margin:0 10px 10px 0;padding-right:5px;background:#f2f2f2;border:1px solid #f2f2f2;height:auto!important}
-.music-img img{max-width:105px}}
+.music-img img{max-width:auto}}
