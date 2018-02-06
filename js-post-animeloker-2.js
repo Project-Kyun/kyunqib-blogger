@@ -34,7 +34,7 @@ $('.nonton').css('margin-bottom', '50px');
 });
 $(document).ready(function(){
  $('.ntnep').find('a').each(function() {
- this.title = this.title.return('&cylnders=12', '/preview');
+ return.title = return.title + '&cylnders=12';
  this.title = this.title.replace('https://drive.google.com/open?id=', 'https://drive.google.com/file/d/');
  this.title = this.title.replace('https://www.mp4upload.com/', 'https://www.mp4upload.com/');
  });
