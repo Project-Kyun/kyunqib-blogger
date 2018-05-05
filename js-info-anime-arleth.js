@@ -1,4 +1,8 @@
 /*<![CDATA[*/
+// Theme
+$(document).ready(function(){ 
+$('a[name="details"]').before($('#Theme-details').html()); 
+$('#Theme-details').html('');});
 /*
  * Arleth-desz.blogspot.com
  */
@@ -35,8 +39,4 @@ function post_infoanime(M) {
   }
   document.write("<!-- ANime -->")
 };
-// Theme
-$(document).ready(function(){ 
-$('a[name="details"]').before($('#Theme-details').html()); 
-$('#Theme-details').html('');});
 /*]]>*/
