@@ -1,7 +1,5 @@
 // Streaming
 setTimeout(function(){$("#myVideo").each(function(){$(this).replaceWith('<iframe class="video-xx loader" src="'+$(this).data("src")+'" allowfullscreen="allowfullscreen" height="410" width="727"></iframe>')})},5e3);
-// Streaming fallback
-if(window.isAdsDisplayed === undefined ) {$('._humu-xx').hide();$('#myOverlay').show();} else {$('._humu-xx').show();$('#myOverlay').hide();}
 // Related Post
 $(document).ready(function() {$('#_rec-post ul li img').attr('data-src', function(i, src){return src.replace( 's72-c', 'w175-h112-c' );});});
 // Onclick Notif
