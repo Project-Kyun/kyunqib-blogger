@@ -1,3 +1,7 @@
+// Menu - Don't Delete This
+$(document).ready(function(){var str=location.href.toLowerCase();$("#menu-menu li a").each(function(){if (str.indexOf(this.href.toLowerCase()) > -1) {$("li.active").removeClass("active");$(this).parent().addClass("active");}});})
+// Menu
+$(function(){$(".menu-item").data("size","big")});$(window).scroll(function(){if($(document).scrollTop()>70){if($(".menu-item").data("size")=="big"){$(".menu-item").data("size","small");$("li.hg").stop().animate({width:"122px"},600);$(".menu-item").stop().animate({left:"10px"},600);$("li.hg img").fadeIn()}}else{if($(".menu-item").data("size")=="small"){$("li.hg img").fadeOut();$(".menu-item").data("size","big");$("li.hg").stop().animate({width:"0"},600);$(".menu-item").stop().animate({left:"0px"},600)}}})
 $(document).ready(function() {$("#menu-nav a").attr({rel:"nofollow noopener"})});
 // Backto top
 $(function(){$(window).scroll(function(){$(this).scrollTop()>600?$(".backtotop").addClass("show"):$(".backtotop").removeClass("show")}),$(".backtotop").click(function(){return $("html,body").animate({scrollTop:0},600),!1})});
