@@ -1,7 +1,3 @@
-// Streaming
-setTimeout(function(){$("#myVideo").each(function(){$(this).replaceWith('<iframe class="video-xx loader" src="'+$(this).data("src")+'" allowfullscreen="allowfullscreen" height="410" width="727"></iframe>')})},5e3);
-// Streaming fallback
-var isAdsDisplayed = true;
 // Onclick Notif
 $('.post-body a').each(function () {var $this = $(this),href = $this.attr('href');$this.attr("onClick", "alert('Ka, jangan lupa kasih komentar ya, sebagai bentuk apresiasi dan penyemangat kami, juga supaya Blog Ini terlihat hidup =w=')");});
 // Disqus Comment
