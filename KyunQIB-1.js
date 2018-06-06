@@ -1,3 +1,4 @@
+function loadCSS(e,a,t){"use strict";var r=window.document.createElement("link"),n=a||window.document.getElementsByTagName("script")[0];r.rel="stylesheet",r.href=e,r.media="only x",n.parentNode.insertBefore(r,n),setTimeout(function(){r.media=t||"all"})}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload,loadCSS("//fonts.googleapis.com/css?family=Roboto+Condensed:400,700"),loadCSS("//fonts.googleapis.com/css?family=Oswald:400,700|Droid+Sans:400,700"),loadCSS("//fonts.googleapis.com/css?family=Titillium+Web:400,700");
 // Menu - Don't Delete This
 $(document).ready(function(){var str=location.href.toLowerCase();$("#menu-menu li a").each(function(){if (str.indexOf(this.href.toLowerCase()) > -1) {$("li.active").removeClass("active");$(this).parent().addClass("active");}});})
 // Menu
